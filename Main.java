@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String args[]){
-		//4 ball 8, 3 str, 3 out
-		//num o, place x-> ball
-		//num o , place o -> str
-		//num x, place x ->out
 		ArrayList<Player> players = new ArrayList<Player>();
 		boolean isGood = false;
 		
