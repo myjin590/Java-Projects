@@ -1,10 +1,11 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Player extends Baseball{
 	
 	private String name;
 	private int[] number;
-
+	//private ArrayList<History> history = new ArrayList<History>();
 	
 	public Player() {
 		this.number = new int[3];
@@ -63,6 +64,20 @@ public class Player extends Baseball{
 		return false;
 	}
 	
-	
-	
+	public void setHistory(int[] num, int[] original) {
+		//History h = new History();
+
+		int b = calculateBall(original, num);
+		int s = calculateStrike(original, num);
+		boolean o = calculateOut(original, num);
+		
+		int out = 0;
+		if(o) {
+			out = 1;
+		}
+		
+		int[] bsk = {b,s,out};
+		this.addHistory(num, bsk);
+
+	}
 }

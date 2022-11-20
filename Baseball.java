@@ -1,9 +1,7 @@
 
-public class Baseball{
+public class Baseball extends History{
 
 
-	
-	
 	protected int ball;
 	protected int strike;
 	protected boolean out;
