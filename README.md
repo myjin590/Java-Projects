@@ -18,7 +18,15 @@ ex) 1,2,2 or 4,1,4 (X)
 ## Getting Started
 
 ## Sample output
-//WILL BE UPDATED
+
+  Setting up player's name and numbers<br>
+<img src="/image/Baseballgame_1.png" width="400px"></img><br>
+  Game started, player started guessing the other player's number<br>
+<img src="/image/Baseballgame_2.png" width="400px"></img><br><br>
+<img src="/image/Baseballgame_3.png" width="400px"></img><br><br>
+<img src="/image/Baseballgame_4.png" width="400px"></img><br><br>
+<img src="/image/Baseballgame_5.png" width="400px"></img><br><br>
+<img src="/image/Baseballgame_6.png" width="400px"></img><br><br>
 
 ## Authors
 Jinny Yun
